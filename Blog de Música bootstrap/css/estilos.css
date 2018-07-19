@@ -1,0 +1,41 @@
+.musica-body {
+	background-color: #D70303;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.cabecera{
+	background-color: #fff;
+}
+.contenedor-logo{
+	
+  min-height: 10%;
+  border: none;
+}
+.logo-img{
+	width: 30%;
+}
+.redes-sociales{
+	margin-top: 0px;
+	height: 17vh;
+}
+.imagen-social{
+	margin-top: 70px
+}
+.img-social{
+	width: 50px;
+	height: 50px;
+	margin-top: 10vh;
+}
+
+@media (max-width: 768px) {
+	.contenedor-logo{
+		text-align: center;
+	}
+	.redes-sociales{
+		text-align: center;
+	}
+}
